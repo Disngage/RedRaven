@@ -56,9 +56,9 @@ def perfection_weight(sex, height):  #  Идеальный вес по форм�
 def road_to_perfection(func):
     difference = weight - func
     if difference > 0:
-        output = f"Для идеального веса необходимо: - {difference} кг"
+        output = f"Для идеального веса необходимо: - {difference:.2f} кг"
     elif difference < 0:
-        output = f"Для идеального веса необходимо: + {-difference} кг"
+        output = f"Для идеального веса необходимо: + {-difference:.2f} кг"
     else:
         output = "Невероятно! Вы уже имеете идеальный вес!"
     return output
