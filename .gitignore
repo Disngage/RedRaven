@@ -1,0 +1,21 @@
+# Игнорировть папки
+/build/
+
+# Системные файлы
+.DS_Store           # macOS
+Thumbs.db           # Windows
+
+# Логи и кэш
+*.log
+*.cache
+__pycache__/
+*.py[cod]
+
+# Редакторы/IDE
+.vscode/
+*.swp
+
+# Конфиденциальные данные
+secrets.json
+config.yml
+.env
